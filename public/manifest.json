@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "NetSuite Tricks",
+  "version": "1.0.0",
+  "description": "A Chrome extension to increase your NetSuite experience",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": []
+}
