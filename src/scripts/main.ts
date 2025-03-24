@@ -1,5 +1,5 @@
-import './style.css';
-import NetSuiteTricksIcon from '../public/icons/icon-128.png';
+import './../style.css';
+import NetSuiteTricksIcon from '../../public/icons/icon-128.png';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
