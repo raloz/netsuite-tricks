@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": ["https://*.app.netsuite.com/app/accounting/transactions/*.nl?id=*&whence=&e=T"]
+      "matches": ["https://*.app.netsuite.com/*"]
     }
   ]
 }
