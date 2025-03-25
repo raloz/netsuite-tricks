@@ -6,10 +6,10 @@
  * @see https://developer.chrome.com/docs/extensions/get-started/tutorial/scripts-on-every-tab#step-3
  */
 
-import { modalHelperInjection } from '../tricks/custom-field-reveal/modal-helper-injection';
+import { main } from '../tricks/custom-field-reveal/modal-helper-injection';
 
 const onload = async () => {
-  await modalHelperInjection();
+  await main();
 };
 
 document.body.onload = onload;
